@@ -4,10 +4,6 @@ angular.module('widget')
             sizex: 2,
             sizey: 2,
             color: '#292625',
-            template: 'Widget-clock/clock.html',
-            dataBind: {
-                type: 'internal',
-                interval: 1000
-            }
+            template: 'Dashboard-Widget-Clock/clock.html',
         });
     });

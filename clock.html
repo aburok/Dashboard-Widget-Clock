@@ -1,6 +1,11 @@
-<div class="smogAlert" ng-controller="smogAlertCtrl">
-    <p class="pollutant">Clock</p>
-    <cjs-doughnut dataset="chartData()" options="chartOptions"  width="180" height="180"></cjs-doughnut>
-    <div class="percentage">{{widget.data[0].value}} %</div>
-    <p class="footer">{{widget.data[0].locationdesc}}</p>
+<div class="clock" ng-controller="clockCtrl">
+    <div class="clock-time clock-center">
+        {{time}}
+    </div>
+    <div class="clock-dayOfWeek clock-center">
+        {{dayOfWeek}}
+    </div>
+    <div class="clock-date clock-center">
+        {{date}}
+    </div>
 </div>

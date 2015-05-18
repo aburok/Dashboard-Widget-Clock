@@ -1,0 +1,25 @@
+.clock{
+    padding: 30px;
+}
+
+.clock-center {
+    margin: 0 auto;
+    display: table;
+}
+
+.clock-time {
+    font-size: 60px;
+    color: white;
+}
+
+.clock-date {
+    font-size: 30px;
+    color: yellow;
+    margin-top:20px;
+}
+
+.clock-dayOfWeek{
+    font-size: 30px;
+    color: green;
+    margin-top: 10px;
+}
